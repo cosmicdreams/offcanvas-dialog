@@ -1,0 +1,14 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json
+name: Popover API experiment
+description: See if popover-api can be used to create a off-canvas dialog
+
+props:
+  type: object
+  additionalProperties: false
+  properties:
+    this:
+      type: string
+      title: This
+    that:
+      type: string
+      title: That

@@ -1,0 +1,28 @@
+<button popovertarget="drupal-off-canvas-wrapper"> Open Popover </button>
+
+<div tabindex="-1" role="dialog" popover
+     class="ui-dialog same-page-preview-dialog ui-widget ui-widget-content ui-front ui-dialog-off-canvas ui-dialog-position-side ui-resizable"
+     aria-describedby="drupal-off-canvas" aria-labelledby="ui-id-4"
+     id="drupal-off-canvas-wrapper" data-offset-right="769"
+     style="position: fixed; height: 1182px; width: 50%; top: 0; left: 50%;">
+  <div
+    class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix">
+    <span id="ui-id-4" class="ui-dialog-title">Preview</span>
+    <button type="button"
+            class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close"
+            title="Close"><span
+        class="ui-button-icon ui-icon ui-icon-closethick"></span><span
+        class="ui-button-icon-space"> </span>Close
+    </button>
+  </div>
+  <div id="drupal-off-canvas"
+       class="ui-front ui-dialog-content drupal-off-canvas-reset ui-widget-content"
+       style="width: auto; min-height: 0px; max-height: none; height: 1091.61px;">
+
+    {% block contents %}
+    {% endblock %}
+    <!-- END OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+
+  </div>
+  <div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div>
+</div>

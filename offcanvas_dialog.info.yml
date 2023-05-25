@@ -1,0 +1,8 @@
+name: 'Off-Canvas Dialog Component'
+description: Provides a SDC component for an offcanvas dialog.
+package: SDC
+type: module
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:sdc
+  - cl_server
