@@ -1,3 +1,7 @@
+#drupal-off-canvas-wrapper .ui-dialog-titlebar {
+    padding: var(--off-canvas-title-padding) 3.125rem var(--off-canvas-title-padding) var(--off-canvas-padding)
+}
+
 #drupal-off-canvas-wrapper .ui-dialog-titlebar::before {
     content: none;
 }

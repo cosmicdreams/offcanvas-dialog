@@ -1,5 +1,5 @@
 name: 'Off-Canvas Dialog Component'
-description: Provides a SDC component for an offcanvas dialog.
+description: Provides a SDC component for an off-canvas dialog.
 package: SDC
 type: module
 core_version_requirement: ^9 || ^10
